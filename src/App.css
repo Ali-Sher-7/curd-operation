@@ -1,0 +1,88 @@
+body {
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+
+  background-size: cover;
+}
+.bg {
+  padding: 156px 0px 277px 0px;
+}
+
+label {
+  color: cadetblue;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.saveEdit {
+  background-color: darkcyan;
+  padding: 7px 20px 7px 20px;
+  border: 2px solid darkcyan;
+  border-radius: 7px;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  color: aquamarine;
+}
+.table {
+  /* overflow-x: hidden; */
+  border: 1px solid white;
+}
+.overflow {
+  overflow-x: auto;
+}
+.thead {
+  color: darkcyan;
+  font-size: larger;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+td {
+  border: 1px solid white;
+}
+
+.clearDelete {
+  background-color: red;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border: 2px solid red;
+  border-radius: 7px;
+}
+
+@keyframes example {
+  0% {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("../src/assets/image/bg01.jpg");
+  }
+  50% {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("../src/assets/image/bg02.jpg");
+  }
+  100% {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("../src/assets/image/bg03.jpg");
+    align-self: auto;
+  }
+}
